@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_06_10_183154) do
+ActiveRecord::Schema.define(version: 2020_06_10_185407) do
 
   create_table "locations", force: :cascade do |t|
     t.string "name"
@@ -22,7 +22,7 @@ ActiveRecord::Schema.define(version: 2020_06_10_183154) do
   end
 
   create_table "resources", force: :cascade do |t|
-    t.string "type"
+    t.string "category"
     t.string "status"
     t.string "description"
     t.string "icon_url"
